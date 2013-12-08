@@ -1,0 +1,19 @@
+﻿<Application
+    x:Class="AdvertisingSample.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:selector="using:AdvertisingSample.Selectors"
+    xmlns:local="using:AdvertisingSample"
+    xmlns:localData="using:AdvertisingSample.Data">
+
+    <Application.Resources>
+
+        <!--アプリケーション固有のリソース -->
+
+        <x:String x:Key="AppName">Advertising Sample</x:String>
+
+        <SolidColorBrush x:Key="ButtonPressedBackgroundThemeBrush" Color="#FF3D3D3D"/>
+        <SolidColorBrush x:Key="ButtonPressedForegroundThemeBrush" Color="#FFFFFFFF"/>
+
+    </Application.Resources>
+</Application>
